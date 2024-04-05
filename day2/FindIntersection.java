@@ -12,7 +12,7 @@ public class FindIntersection {
 	            for (int j = 0; j < b.length; j++) {
 	                if (a[i] == b[j]) {
 	                    System.out.println(a[i]);
-	                    break; // Exit inner loop once a match is found
+	                    
 	                }
 	            }
 	        }
