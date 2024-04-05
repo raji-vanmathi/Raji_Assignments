@@ -4,14 +4,14 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int input = 123451; // Change this value to check for other numbers
+		int number = 123451; // Change this value to check for other numbers
 
-        int originalInput = input;
+        int originalInput = number;
         int output = 0;
 
         // Reverse the digits of the input number
-        for (; input != 0; input /= 10) {
-            int digit = input % 10;
+        for (; number != 0; input /= 10) {
+            int digit = number % 10;
             output = output * 10 + digit;
         }
 
